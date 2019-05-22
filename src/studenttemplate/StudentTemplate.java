@@ -9,23 +9,35 @@ package studenttemplate;
  *
  * @author lovey
  */
+public class StudentTemplate {
 
-public class StudentTemplate
-{/**
-     * @param args the command line argument*/
+    /**
+     * @param args the command line argument
+     */
     private String name;//encapsulation
-    
-        // TODO code application logic here
+    private int student_id;
+    private int maxCourse;
 
+    // TODO code application logic here
     /**
      * @return the name
      */
     //constructors
-    public StudentTemplate(){
-    
-}
+    public StudentTemplate() {
+
+    }
+
+    public StudentTemplate(String name, int studentId) {
+        this.name = name;
+        this.student_id = studentId;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public int getStudent_Id() {
+        return student_id;
     }
 
     /**
@@ -34,6 +46,23 @@ public class StudentTemplate
     public void setName(String name) {
         this.name = name;
     }
-    
-    
+
+    public void setStudent_Id(int studentId) {
+        this.student_id = studentId;
+    }
+
+    /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
+
 }
