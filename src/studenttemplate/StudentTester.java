@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 /*date 22/05/2019*/
+/*sheridan College*/
 package studenttemplate;
 
 
