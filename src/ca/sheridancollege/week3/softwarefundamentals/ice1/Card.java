@@ -51,7 +51,17 @@ public class Card {
     {
         this.value = value;
     }
+    public int randomVal()
+    {
+       int number =(int) (Math.random()*13+1);
+    return number;
+    }
    
+    public int randomSuit()
+    {
+       int number =(int) (Math.random()*3+0);
+    return number;
+    }
    //add two random methods to generate value and suits
     
 }
