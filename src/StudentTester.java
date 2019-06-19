@@ -6,7 +6,7 @@
 
 /**
  *
- * @author lovey
+ * @author lovey ghotra
  */
 public class StudentTester {
     
